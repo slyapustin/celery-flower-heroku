@@ -1,0 +1,22 @@
+{
+    "name": "Celery Flower Monitor",
+    "description": "Monitoring Celery on Heroku via Flower.",
+    "keywords": [
+      "celery",
+      "flower",
+      "monitor",
+      "heroku"
+    ],
+    "website": "https://github.com/inoks/celery-flower-heroku",
+    "repository": "https://github.com/inoks/celery-flower-heroku",
+    "env": {
+      "BROKER_URL": {
+        "description": "Broker URL.",
+        "value": ""
+      },
+      "FLOWER_BASIC_AUTH": {
+        "description": "Accepts user:password pairs separated by a comma. Any client trying to access this Flower instance will be prompted to provide the credentials specified in this argument:user1:password1,user2:password2",
+        "value": "admin:adminpass"
+      }
+    }
+  }
