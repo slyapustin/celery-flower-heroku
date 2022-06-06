@@ -7,8 +7,8 @@
       "monitor",
       "heroku"
     ],
-    "website": "https://github.com/inoks/celery-flower-heroku",
-    "repository": "https://github.com/inoks/celery-flower-heroku",
+    "website": "https://github.com/slyapustin/celery-flower-heroku",
+    "repository": "https://github.com/slyapustin/celery-flower-heroku",
     "env": {
       "BROKER_URL": {
         "description": "Broker URL.",
